@@ -4,7 +4,6 @@
  * Author: Developer
  * Version: 1.0.0
  */
- 
 function loadMyBlock() {
   wp_enqueue_script(
     'my-new-block',
@@ -13,6 +12,4 @@ function loadMyBlock() {
     true
   );
 }
-
 add_action('enqueue_block_editor_assets', 'loadMyBlock');
-  
