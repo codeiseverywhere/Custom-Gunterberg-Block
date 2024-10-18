@@ -10,7 +10,6 @@ wp.blocks.registerBlockType('brad/border-box', {
   },
  
 /* This configures how the content and color fields will work, and sets up the necessary elements */
- 
   edit: function(props) {
     function updateContent(event) {
       props.setAttributes({content: event.target.value})
